@@ -37,18 +37,18 @@ export default function App() {
                 Me chamo <span>Fabrício</span> Sou desenvolvedor Front-end
               </p>
               <nav>
-                <span>
+                <a href="">
                   <FaInstagram />
-                </span>
-                <span>
+                </a>
+                <a href="">
                   <FaGithub />
-                </span>
-                <span>
+                </a>
+                <a href="">
                   <FaFacebook />
-                </span>
-                <span>
+                </a>
+                <a href="">
                   <FaLinkedin />
-                </span>
+                </a>
               </nav>
             </article>
             <aside>
