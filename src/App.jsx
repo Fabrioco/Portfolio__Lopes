@@ -23,7 +23,7 @@ export default function App() {
     <div>
       <div className="container">
         <header>
-          <h1>Fabrício Lopes</h1>
+          <h1 className="title">Fabrício Lopes</h1>
           <nav>
             <a href="">Início</a>
             <a href="">Sobre</a>
@@ -34,8 +34,14 @@ export default function App() {
           <section>
             <article>
               <p>
-                Me chamo <span>Fabrício</span> Sou desenvolvedor Front-end
+                Olá, me chamo <span>Fabrício</span>
               </p>
+              <div className="animated__text">
+                <i className="text">&nbsp;Sou desenvolvedor Front-end&nbsp;</i>
+                <span className="hover_text">
+                  &nbsp;Sou desenvolvedor Front-End&nbsp;
+                </span>
+              </div>
               <nav>
                 <a href="">
                   <FaInstagram />
