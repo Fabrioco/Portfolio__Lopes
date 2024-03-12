@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -22,35 +24,76 @@
 
 header {
   width: 100%;
-  height: 100px;
+  height: 150px;
   background: linear-gradient(to bottom, #060606, #060606, #111111, #111111);
   box-shadow: 0 0 10px 0 #000000;
   position: sticky;
   top: 0;
 }
 
-header > h1 {
-  font-size: 2rem;
+.title {
+  font-size: 2.5rem;
+  width: clamp(250px, 30%, 500px);
+  position: relative;
+  top: 15px;
+  left: 5vw;
 }
 
 header > nav {
   display: flex;
-  flex-wrap: wrap;
   position: absolute;
   bottom: 5px;
-  right: 100px;
-  width: clamp(150px, 20%, 350px);
+  right: 5vw;
+  width: clamp(150px, 100%, 350px);
   height: auto;
   column-gap: 50px;
 }
 
-nav > a {
+header > nav > a {
   color: #fff;
   text-decoration: none;
   font-size: 1.3rem;
-  flex: 1 0 30;
+  transition: all linear 0.3s;
 }
 
-main {
-  /* Estilos para o conteúdo dentro de main */
+header > nav > a:hover {
+  color: #b6b6b6;
+}
+
+main > section > article > p {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.animated__text {
+  position: relative;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  line-height: 80px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.text {
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff06;
+  font-family: "Kanit", sans-serif;
+}
+
+.hover_text {
+  position: absolute;
+  inset: 0;
+  width: 0%;
+  color: #1af7ff;
+  overflow: hidden;
+  border-right: 6px solid #1af7ff;
+  font-family: "Kanit", sans-serif;
+  transition: 0.5s ease-in-out;
+}
+
+.animated__text:hover .hover_text {
+  width: 100%;
+  filter: drop-shadow(0 0 40px #1af7ff);
 }
