@@ -18,35 +18,67 @@
 .container {
   width: 100%;
   height: 100%;
-  background: linear-gradient(360deg, #111111, #000000, #000, #111111);
+  background: linear-gradient(45deg, #0a0b0d, #2d3540, #1c2026, #a4a5a6);
+  background-size: 400% 400%;
   color: #fff;
+  animation: gradientAnimation 10s infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 header {
   width: 100%;
   height: 150px;
-  background: linear-gradient(to bottom, #060606, #060606, #111111, #111111);
-  box-shadow: 0 0 10px 0 #000000;
-  position: sticky;
-  top: 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .title {
-  font-size: 2.5rem;
-  width: clamp(250px, 30%, 500px);
+  font-size: 2.8rem;
+  width: 14ch;
+  height: 60px;
+  border-right: 4px solid;
   position: relative;
+  white-space: nowrap;
+  overflow: hidden;
   top: 15px;
   left: 5vw;
+  animation: typing 5s steps(14) infinite,
+    blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes bliking {
+  50% {
+    border-color: transparent;
+  }
 }
 
 header > nav {
   display: flex;
-  position: absolute;
-  bottom: 5px;
-  right: 5vw;
   width: clamp(150px, 100%, 350px);
   height: auto;
   column-gap: 50px;
+  position: absolute;
+  bottom: 10px;
+  right: 5vw;
 }
 
 header > nav > a {
@@ -58,22 +90,51 @@ header > nav > a {
 
 header > nav > a:hover {
   color: #b6b6b6;
+  text-decoration: underline;
 }
 
-main > section > article > p {
+.main__content {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  position: relative;
+  left: 50%;
+  margin: 100px 0 200px 0;
+  transform: translate(-50%);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__content > aside > img {
+  width: 300px;
+  height: 300px;
+}
+
+.main__content > article > p {
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
+  font-weight: 200;
+  font-size: 1.3rem;
+}
+
+.main__content > article > p > span {
+  font-size: 2rem;
+  font-weight: 600;
+  text-shadow: 0px 0px 10px #ffffff7e;
+  border-bottom: 1px solid #fff;
+  width: 200px;
 }
 
 .animated__text {
   position: relative;
-  font-size: 3rem;
+  font-size: 2.5rem;
   letter-spacing: 3px;
   line-height: 80px;
   cursor: pointer;
   text-transform: uppercase;
   font-weight: 600;
+  width: 75%;
 }
 
 .text {
@@ -94,6 +155,33 @@ main > section > article > p {
 }
 
 .animated__text:hover .hover_text {
-  width: 100%;
+  width: 102%;
   filter: drop-shadow(0 0 40px #1af7ff);
+}
+
+.nav__redes {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__redes {
+  width: 50%;
+}
+
+.nav__redes > a {
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.nav__redes > a > svg {
+  color: red;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

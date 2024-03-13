@@ -31,7 +31,7 @@ export default function App() {
           </nav>
         </header>
         <main>
-          <section>
+          <section className="main__content">
             <article>
               <p>
                 Olá, me chamo <span>Fabrício</span>
@@ -42,7 +42,7 @@ export default function App() {
                   &nbsp;Sou desenvolvedor Front-End&nbsp;
                 </span>
               </div>
-              <nav>
+              <nav className="nav__redes">
                 <a href="">
                   <FaInstagram />
                 </a>
