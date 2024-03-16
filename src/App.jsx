@@ -75,35 +75,37 @@ export default function App() {
               </p>
             </article>
             <img src={me} alt="" />
-            <article>
+            <article className="courses">
               <h2>Conhecimentos</h2>
-              <i>
-                <FaHtml5 />
-              </i>
-              <i>
-                <FaCss3 />
-              </i>
-              <i>
-                <IoLogoJavascript />
-              </i>
-              <i>
-                <FaBootstrap />
-              </i>
-              <i>
-                <FaReact />
-              </i>
-              <i>
-                <FaGitAlt />
-              </i>
-              <i>
-                <FaLock />
-              </i>
-              <i>
-                <FaLock />
-              </i>
-              <i>
-                <FaLock />
-              </i>
+              <div>
+                <i>
+                  <FaHtml5 />
+                </i>
+                <i>
+                  <FaCss3 />
+                </i>
+                <i>
+                  <IoLogoJavascript />
+                </i>
+                <i>
+                  <FaBootstrap />
+                </i>
+                <i>
+                  <FaReact />
+                </i>
+                <i>
+                  <FaGitAlt />
+                </i>
+                <i>
+                  <FaLock />
+                </i>
+                <i>
+                  <FaLock />
+                </i>
+                <i>
+                  <FaLock />
+                </i>
+              </div>
             </article>
           </section>
           <section>

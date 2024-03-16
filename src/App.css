@@ -252,3 +252,54 @@ header > nav > a:hover {
   transition: all 0.5s ease-in-out;
   color: #f6f6f6;
 }
+
+/* Mais sobre mim */
+
+.container__about {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  width: clamp(300px, 80%, 1000px);
+  margin: auto;
+  column-gap: 50px;
+  margin: 150px auto;
+}
+
+.container__about > article > h2 {
+  border-bottom: 2px solid #fff;
+  box-shadow: -1px -1px -1px #fff;
+  font-size: 1.6rem;
+}
+
+.container__about > article > p {
+  padding: 5px 10px;
+  font-size: 1.3rem;
+}
+.container__about > img {
+  width: clamp(150px, 25%, 350px);
+  border-radius: 100%;
+  box-shadow: 0 0 7px 0 #fff inset, 0 0 7px 0 #fff;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.courses > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin: auto;
+}
+
+.courses > div > i {
+  background-color: #fff;
+}
+
+.courses > div > i > svg {
+  width: 50px;
+  height: 50px;
+  color: #000 ;
+}
