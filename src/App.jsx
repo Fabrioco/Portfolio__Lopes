@@ -23,11 +23,20 @@ export default function App() {
     <div>
       <div className="container">
         <header>
-          <h1 className="title">Fabrício Lopes</h1>
+          <h1 className="title">Fabrício Lopes.</h1>
           <nav>
-            <a href="">Início</a>
-            <a href="">Sobre</a>
-            <a href="">Projetos</a>
+            <a href="">
+              <span></span>
+              <span></span>Início
+            </a>
+            <a href="">
+              <span></span>
+              <span></span>Sobre
+            </a>
+            <a href="">
+              <span></span>
+              <span></span>Projetos
+            </a>
           </nav>
         </header>
         <main>
@@ -61,8 +70,9 @@ export default function App() {
               <img src={apresentation} alt="" />
             </aside>
           </section>
+
           <section className="container__about">
-            <article>
+            <article className="text_me">
               <h2>Mais sobre mim</h2>
               <p>
                 Olá, tenho 20 anos e possuo habilidades em inglês, assim como
