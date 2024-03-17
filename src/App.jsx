@@ -89,22 +89,22 @@ export default function App() {
               <h2>Conhecimentos</h2>
               <div>
                 <i>
-                  <FaHtml5 />
+                  <FaHtml5 color="#FFA500" />
                 </i>
                 <i>
-                  <FaCss3 />
+                  <FaCss3 color="#0000FF" />
                 </i>
                 <i>
-                  <IoLogoJavascript />
+                  <IoLogoJavascript color=" #FFFF00" />
                 </i>
                 <i>
-                  <FaBootstrap />
+                  <FaBootstrap color="#800080" />
                 </i>
                 <i>
-                  <FaReact />
+                  <FaReact color="#ADD8E6" />
                 </i>
                 <i>
-                  <FaGitAlt />
+                  <FaGitAlt color=" #D8BFD8" />
                 </i>
                 <i>
                   <FaLock />
@@ -118,8 +118,8 @@ export default function App() {
               </div>
             </article>
           </section>
-          <section>
-            <h1>Meus Projetos</h1>
+          <section className="container__projects">
+            <h2>Meus Projetos</h2>
             <article>
               <div>
                 <img src="" alt="" />
