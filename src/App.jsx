@@ -15,6 +15,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 
 import apresentation from "./assets/apresentation.svg";
 import me from "./assets/me.jpg";
+import tranportadora from "./assets/tranportadora.svg";
 
 import "./App.css";
 
@@ -66,9 +67,7 @@ export default function App() {
                 </a>
               </nav>
             </article>
-            <aside>
-              <img src={apresentation} alt="" />
-            </aside>
+            <img src={apresentation} alt="" />
           </section>
 
           <section className="container__about">
@@ -120,37 +119,91 @@ export default function App() {
           </section>
           <section className="container__projects">
             <h2>Meus Projetos</h2>
-            <article>
+            <article className="cardsProjects">
               <div>
-                <img src="" alt="" />
-                Projeto <button>Acessar</button>
+                <img src={tranportadora} alt="" />
+                <h3>Pagina Lista</h3>
+                <a
+                  href="https://newtransporterlopes.netlify.app/"
+                  rel="noopener noreferrer"
+                >
+                  Acessar
+                </a>
+                <p>
+                  Pagina de lista, para que você possa fazer suas anotações,
+                  edita-las e depois de feitas você pode apaga-las.
+                </p>
               </div>
               <div>
-                <img src="" alt="" />
-                Projeto <button>Acessar</button>
+                <img src={tranportadora} alt="" />
+                <h3>Projeto Chamados</h3>
+                <a
+                  href="https://newtransporterlopes.netlify.app/"
+                  rel="noopener noreferrer"
+                >
+                  Acessar
+                </a>
+                <p>
+                  Projeto de chamados, para que você possa abrir um chamado para
+                  o grupo de TI resolver seus problemas.
+                </p>
               </div>
               <div>
-                <img src="" alt="" />
-                Projeto <button>Acessar</button>
+                <img src={tranportadora} alt="transportadora.svg" />
+                <h3>Transportadora Lopes</h3>
+                <a
+                  href="https://newtransporterlopes.netlify.app/"
+                  rel="noopener noreferrer"
+                >
+                  Acessar
+                </a>
+                <p>
+                  Meu primeiro projeto utilizando banco de dados, onde você pode
+                  fazer login e continuar logado ou até mesmo fazer um cadastro
+                  para entrar a primeira vez.
+                </p>
               </div>
               <div>
-                <img src="" alt="" />
-                Projeto <button>Acessar</button>
+                <img src={tranportadora} alt="" />
+                <h3>Prime Flix</h3>
+                <a
+                  href="https://primeflix-fabricio.netlify.app/"
+                  rel="noopener noreferrer"
+                >
+                  Acessar
+                </a>
+                <p>
+                  Meu primeiro site utilizando API externa, onde atualiza e
+                  mostra os filmes em cartaz, mostrando também classificação do
+                  público.
+                </p>
               </div>
               <div>
-                <img src="" alt="" />
-                Projeto <button>Acessar</button>
+                <img src={tranportadora} alt="" />
+                <h3>Calculadora</h3>
+                <a
+                  href="https://newtransporterlopes.netlify.app/"
+                  rel="noopener noreferrer"
+                >
+                  Acessar
+                </a>
+                <p>
+                  Calculadora feita para treinar minhas habilidades no
+                  JavaScript.
+                </p>
               </div>
             </article>
           </section>
-          <section>
+          <section className="container__contacts">
             <h1>Contatos</h1>
-            <p>
-              <span></span>Fabriciooliveiralopes50@gmail.com
-            </p>
-            <p>
-              <span></span>(11) 96016-8159
-            </p>
+            <div>
+              <p>
+                <span></span>Fabriciooliveiralopes50@gmail.com
+              </p>
+              <p>
+                <span></span>(11) 96016-8159
+              </p>
+            </div>
           </section>
         </main>
         <footer>
