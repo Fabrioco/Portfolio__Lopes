@@ -9,13 +9,19 @@ import {
   FaBootstrap,
   FaGitAlt,
   FaLock,
+  FaEnvelope,
+  FaPhone,
 } from "react-icons/fa";
 
 import { IoLogoJavascript } from "react-icons/io5";
 
 import apresentation from "./assets/apresentation.svg";
 import me from "./assets/me.jpg";
-import tranportadora from "./assets/tranportadora.svg";
+import transportadora from "./assets/tranportadora.svg";
+import calculadora from "./assets/calculadora.jpg";
+import primeflix from "./assets/prime_flix.jpg";
+import chamados from "./assets/chamados.jpg";
+import list from "./assets/lista.jpg";
 
 import "./App.css";
 
@@ -26,22 +32,22 @@ export default function App() {
         <header>
           <h1 className="title">Fabrício Lopes.</h1>
           <nav>
-            <a href="">
+            <a href="#home">
               <span></span>
               <span></span>Início
             </a>
-            <a href="">
+            <a href="#about">
               <span></span>
               <span></span>Sobre
             </a>
-            <a href="">
+            <a href="#projects">
               <span></span>
               <span></span>Projetos
             </a>
           </nav>
         </header>
         <main>
-          <section className="main__content">
+          <section id="home" className="main__content">
             <article>
               <p>
                 Olá, me chamo <span>Fabrício</span>
@@ -53,16 +59,16 @@ export default function App() {
                 </span>
               </div>
               <nav className="nav__redes">
-                <a href="">
+                <a id="instagram" href="">
                   <FaInstagram />
                 </a>
-                <a href="">
+                <a id="github" href="">
                   <FaGithub />
                 </a>
-                <a href="">
+                <a id="facebook" href="">
                   <FaFacebook />
                 </a>
-                <a href="">
+                <a id="linkedin" href="">
                   <FaLinkedin />
                 </a>
               </nav>
@@ -70,7 +76,7 @@ export default function App() {
             <img src={apresentation} alt="" />
           </section>
 
-          <section className="container__about">
+          <section id="about" className="container__about">
             <article className="text_me">
               <h2>Mais sobre mim</h2>
               <p>
@@ -117,12 +123,12 @@ export default function App() {
               </div>
             </article>
           </section>
-          <section className="container__projects">
+          <section id="projects" className="container__projects">
             <h2>Meus Projetos</h2>
             <article className="cardsProjects">
               <div>
-                <img src={tranportadora} alt="" />
-                <h3>Pagina Lista</h3>
+                <img src={list} alt="" />
+                <h3>To Do List</h3>
                 <a
                   href="https://newtransporterlopes.netlify.app/"
                   rel="noopener noreferrer"
@@ -135,7 +141,7 @@ export default function App() {
                 </p>
               </div>
               <div>
-                <img src={tranportadora} alt="" />
+                <img src={chamados} alt="" />
                 <h3>Projeto Chamados</h3>
                 <a
                   href="https://newtransporterlopes.netlify.app/"
@@ -149,7 +155,7 @@ export default function App() {
                 </p>
               </div>
               <div>
-                <img src={tranportadora} alt="transportadora.svg" />
+                <img src={transportadora} alt="transportadora.svg" />
                 <h3>Transportadora Lopes</h3>
                 <a
                   href="https://newtransporterlopes.netlify.app/"
@@ -164,7 +170,7 @@ export default function App() {
                 </p>
               </div>
               <div>
-                <img src={tranportadora} alt="" />
+                <img src={primeflix} alt="" />
                 <h3>Prime Flix</h3>
                 <a
                   href="https://primeflix-fabricio.netlify.app/"
@@ -179,7 +185,7 @@ export default function App() {
                 </p>
               </div>
               <div>
-                <img src={tranportadora} alt="" />
+                <img src={calculadora} alt="calculadora.jpg" />
                 <h3>Calculadora</h3>
                 <a
                   href="https://newtransporterlopes.netlify.app/"
@@ -194,14 +200,16 @@ export default function App() {
               </div>
             </article>
           </section>
-          <section className="container__contacts">
-            <h1>Contatos</h1>
+          <section id="contacts" className="container__contacts">
+            <h2>Contatos</h2>
             <div>
               <p>
-                <span></span>Fabriciooliveiralopes50@gmail.com
+                <FaEnvelope />
+                Fabriciooliveiralopes50@gmail.com
               </p>
               <p>
-                <span></span>(11) 96016-8159
+                <FaPhone />
+                (11) 96016-8159
               </p>
             </div>
           </section>
