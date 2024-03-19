@@ -62,13 +62,13 @@ export default function App() {
                 <a id="instagram" href="https://www.instagram.com/eufafalopes?igsh=MXFnamdqYmVrZTd1bg==">
                   <FaInstagram />
                 </a>
-                <a id="github" href="">
+                <a id="github" href="https://github.com/Fabrioco">
                   <FaGithub />
                 </a>
-                <a id="facebook" href="">
+                <a id="facebook" href="https://facebook.com/bibicio-lopes">
                   <FaFacebook />
                 </a>
-                <a id="linkedin" href="">
+                <a id="linkedin" href="https://www.linkedin.com/in/fabrício-oliveira-lopes-b713892bb">
                   <FaLinkedin />
                 </a>
               </nav>
