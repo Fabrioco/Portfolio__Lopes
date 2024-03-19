@@ -59,7 +59,7 @@ export default function App() {
                 </span>
               </div>
               <nav className="nav__redes">
-                <a id="instagram" href="">
+                <a id="instagram" href="https://www.instagram.com/eufafalopes?igsh=MXFnamdqYmVrZTd1bg==">
                   <FaInstagram />
                 </a>
                 <a id="github" href="">
