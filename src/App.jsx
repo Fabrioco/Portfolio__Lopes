@@ -59,16 +59,16 @@ export default function App() {
                 </span>
               </div>
               <nav className="nav__redes">
-                <a id="instagram" href="https://www.instagram.com/eufafalopes?igsh=MXFnamdqYmVrZTd1bg==">
+                <a id="instagram" href="">
                   <FaInstagram />
                 </a>
-                <a id="github" href="https://github.com/Fabrioco">
+                <a id="github" href="">
                   <FaGithub />
                 </a>
-                <a id="facebook" href="https://facebook.com/bibicio-lopes">
+                <a id="facebook" href="">
                   <FaFacebook />
                 </a>
-                <a id="linkedin" href="https://www.linkedin.com/in/fabrício-oliveira-lopes-b713892bb">
+                <a id="linkedin" href="">
                   <FaLinkedin />
                 </a>
               </nav>
@@ -129,7 +129,8 @@ export default function App() {
               <div>
                 <img src={list} alt="" />
                 <h3>To Do List</h3>
-           <a href="https://todolistfabricio.netlify.app/"
+                <a
+                  href="https://todolistfabricio.netlify.app/"
                   rel="noopener noreferrer"
                 >
                   Acessar
@@ -143,7 +144,7 @@ export default function App() {
                 <img src={chamados} alt="" />
                 <h3>Projeto Chamados</h3>
                 <a
-                  href="https://newtransporterlopes.netlify.app/"
+                  href="https://callproject.netlify.app/"
                   rel="noopener noreferrer"
                 >
                   Acessar
@@ -187,7 +188,7 @@ export default function App() {
                 <img src={calculadora} alt="calculadora.jpg" />
                 <h3>Calculadora</h3>
                 <a
-                  href="https://newtransporterlopes.netlify.app/"
+                  href="https://calculatorfabriciolopes.netlify.app/"
                   rel="noopener noreferrer"
                 >
                   Acessar
