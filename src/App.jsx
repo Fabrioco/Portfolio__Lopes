@@ -188,7 +188,7 @@ export default function App() {
                 <img src={calculadora} alt="calculadora.jpg" />
                 <h3>Calculadora</h3>
                 <a
-                  href="https://newtransporterlopes.netlify.app/"
+                  href="https://calculatorfabriciolopes.netlify.app/"
                   rel="noopener noreferrer"
                 >
                   Acessar
