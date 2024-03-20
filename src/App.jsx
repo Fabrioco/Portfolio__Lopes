@@ -70,7 +70,7 @@ export default function App() {
                 </a>
                 <a
                   id="linkedin"
-                  href="www.linkedin.com/in/🏳️‍🌈-fabrício-oliveira-lopes-b713892bb"
+                  href="https://www.linkedin.com/in/🏳️‍🌈-fabrício-oliveira-lopes-b713892bb"
                 >
                   <FaLinkedin />
                 </a>
