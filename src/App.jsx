@@ -129,8 +129,7 @@ export default function App() {
               <div>
                 <img src={list} alt="" />
                 <h3>To Do List</h3>
-                <a
-                  href="https://todolistfabricio.netlify.app/"
+                <a href="https://todolistfabricio.netlify.app/"
                   rel="noopener noreferrer"
                 >
                   Acessar
