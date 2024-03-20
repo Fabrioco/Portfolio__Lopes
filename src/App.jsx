@@ -59,16 +59,19 @@ export default function App() {
                 </span>
               </div>
               <nav className="nav__redes">
-                <a id="instagram" href="">
+                <a id="instagram" href="https://www.instagram.com/eufafalopes/">
                   <FaInstagram />
                 </a>
-                <a id="github" href="">
+                <a id="github" href="https://github.com/Fabrioco/">
                   <FaGithub />
                 </a>
-                <a id="facebook" href="">
+                <a id="facebook" href="https://www.facebook.com/bibicio-lopes">
                   <FaFacebook />
                 </a>
-                <a id="linkedin" href="">
+                <a
+                  id="linkedin"
+                  href="www.linkedin.com/in/🏳️‍🌈-fabrício-oliveira-lopes-b713892bb"
+                >
                   <FaLinkedin />
                 </a>
               </nav>
@@ -129,7 +132,8 @@ export default function App() {
               <div>
                 <img src={list} alt="" />
                 <h3>To Do List</h3>
-           <a href="https://todolistfabricio.netlify.app/"
+                <a
+                  href="https://todolistfabricio.netlify.app/"
                   rel="noopener noreferrer"
                 >
                   Acessar
