@@ -130,7 +130,7 @@ export default function App() {
                 <img src={list} alt="" />
                 <h3>To Do List</h3>
                 <a
-                  href="https://newtransporterlopes.netlify.app/"
+                  href="https://todolistfabricio.netlify.app/"
                   rel="noopener noreferrer"
                 >
                   Acessar
@@ -144,7 +144,7 @@ export default function App() {
                 <img src={chamados} alt="" />
                 <h3>Projeto Chamados</h3>
                 <a
-                  href="https://newtransporterlopes.netlify.app/"
+                  href="https://callproject.netlify.app/"
                   rel="noopener noreferrer"
                 >
                   Acessar
